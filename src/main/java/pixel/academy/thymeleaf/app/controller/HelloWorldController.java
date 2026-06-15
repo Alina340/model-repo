@@ -9,7 +9,7 @@ public class HelloWorldController {
 
     //metoda pentru a afisa formularul HTML initial
 
-    @RequestMapping("/showForm")
+    @GetMapping("/showForm")
     public String showForm() {
         return "helloworld-form";
     }
